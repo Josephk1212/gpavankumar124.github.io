@@ -1,0 +1,18 @@
+html{
+    background: url(/Images/Wallpaper\ 1.jpg);
+    background-size: cover;
+}
+
+#logo {
+    position: fixed;
+    right: 30px;
+}
+
+.text{
+    margin: 20% 5%;
+    background-color:  rgba(0, 0, 0, 0.384);
+    color: seashell;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 150%;
+}

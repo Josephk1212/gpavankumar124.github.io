@@ -1,0 +1,48 @@
+html{
+    background: url(/Images/Wallpaper\ 1.jpg);
+    background-size: cover;
+}
+
+#logo {
+    position: fixed;
+    right: 30px;
+}
+
+.text{
+    margin: 10% 5%;
+    background-color:  rgba(0, 0, 0, 0.384);
+    color: seashell;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 100%;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  margin:30px;
+}
+
+.box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 200%;
+    color: mediumspringgreen;
+    transition:color 0.5s;
+    margin-right: 20px;
+}
+
+.box{
+border-bottom: 1px solid rgb (255,166,0);
+transition: border-bottom 0.5s;
+}
+
+.box:hover{
+
+    border-bottom:1px solid springgreen;
+}
+
+.box:hover a{
+  color: darkturquoise;
+}
